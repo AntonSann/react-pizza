@@ -9,7 +9,7 @@ export const fetchPizzas = (dispatch, category, sortBy) => {
   dispatch(setLoaded(false));
   axios
     .get(
-      `http://localhost:3000/pizzas?${
+      `https://my-json-server.typicode.com/AntonSann/demo/pizzas?${
         category !== null ? `category=${category}` : ""
       }&_sort=${sortBy.type}&_order=${sortBy.order}`
     )

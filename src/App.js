@@ -12,7 +12,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="cart" element={<Cart />} />
-            <Route path="/" element={<Home />} exact />
+            <Route path="react-pizza/" element={<Home />} exact />
           </Routes>
         </div>
       </Router>

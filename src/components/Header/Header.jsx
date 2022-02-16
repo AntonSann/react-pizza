@@ -12,7 +12,7 @@ function Header() {
   return (
       <div className="header">
         <div className="container">
-          <Link to="react-pizza/">
+          <Link to="/react-pizza">
             <div className="header__logo">
               <img width="38" src={logoSvg} alt="Pizza logo" />
               <div>
@@ -22,7 +22,7 @@ function Header() {
             </div>
           </Link>
           <div className="header__cart">
-            <Link to="/cart">
+            <Link to="/react-pizza/cart">
               <Button className='button--cart'>
                 <span>{totalPrice} $</span>
                 <div className="button__delimiter"></div>
